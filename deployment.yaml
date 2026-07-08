@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sample-app-container
-          image: https://hub.docker.com/r/girimausam/sample-app:latest
+          image: girimausam/sample-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
