@@ -17,6 +17,6 @@ spec:
       containers:
         - name: sample-app-container
           image: girimausam/sample-app:latest
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
